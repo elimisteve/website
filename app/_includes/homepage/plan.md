@@ -1,4 +1,4 @@
-## We'll to host FOSS like nobody before did
+## We'll host FOSS like nobody before did
 
 ### How do we compare to Gandi/OVH/1and1?
 
