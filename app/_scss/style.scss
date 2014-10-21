@@ -2,6 +2,15 @@
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600');
 @import url('font-awesome.min.css');
 
+// Variables definition
+$indie-blue: #0DB4C7;
+$indie-green: #00B6A0;
+$indie-pink: #D078BA;
+$dark-grey: #333333;
+$light-grey: #f4f4f4;
+
+
+
 /*
   Helios by HTML5 UP
   html5up.net | @n33co
@@ -14,8 +23,8 @@
 
   body
   {
-    background: #f0f4f4;
-    color: #5b5b5b;
+    background: $light-grey;
+    color: $dark-grey;
   }
 
     body.is-loading *
@@ -43,7 +52,7 @@
   h1,h2,h3,h4,h5,h6
   {
     font-weight: 400;
-    color: #483949;
+    color: $dark-grey;
     line-height: 1.25em;
   }
   
@@ -78,7 +87,7 @@
   strong, b
   {
     font-weight: 400;
-    color: #483949;
+    color: $dark-grey;
   }
   
   em, i
@@ -100,7 +109,7 @@
   
     a:hover
     {
-      color: #CF1580;
+      color: $indie-pink;
       border-bottom-color: transparent;
     }
 
@@ -423,7 +432,7 @@
           
             ul.icons li a:hover
             {
-              color: #ef8376;
+              color: $indie-pink;
             }
     
     ol
@@ -451,7 +460,7 @@
       {
         display: block;
         font-weight: 400;
-        color: #483949;
+        color: $dark-grey;
         margin: 0 0 1em 0;
       }
     
@@ -464,10 +473,10 @@
         -webkit-appearance: none;
         display: block;
         border: 0;
-        background: #fafafa;
+        background: $light-grey;
         width: 100%;
         border-radius: 0.5em;
-        border: solid 1px #E5E5E5;
+        border: solid 1px $dark-grey;
         padding: 1em;
         -moz-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
         -webkit-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -496,32 +505,32 @@
         form textarea:focus
         {
           background: #fff;
-          border-color: #df7366;
+          border-color: $indie-pink;
         }
 
         form .formerize-placeholder
         {
-          color: #555 !important;
+          color: $dark-grey !important;
         }
 
         form ::-webkit-input-placeholder
         {
-          color: #555 !important;
+          color: $dark-grey !important;
         }
 
         form :-moz-placeholder
         {
-          color: #555 !important;
+          color: $dark-grey !important;
         }
 
         form ::-moz-placeholder
         {
-          color: #555 !important;
+          color: $dark-grey !important;
         }
 
         form :-ms-input-placeholder
         {
-          color: #555 !important;
+          color: $dark-grey !important;
         }
 
         form ::-moz-focus-inner
@@ -543,7 +552,7 @@
 
         table.default tbody tr
         {
-          border-top: solid 1px #e5e5e5;
+          border-top: solid 1px $dark-grey;
         }
 
         table.default tbody tr:first-child
@@ -553,7 +562,7 @@
       
         table.default tbody tr:nth-child(2n+1)
         {
-          background: #fafafa;
+          background: $light-grey;
         }
         
         table.default td
@@ -570,12 +579,12 @@
       
         table.default thead
         {
-          border-bottom: solid 2px #e5e5e5;
+          border-bottom: solid 2px $light-grey;
         }
         
         table.default tfoot
         {
-          border-top: solid 2px #e5e5e5;
+          border-top: solid 2px $light-grey;
         }
 
   /* Button */
@@ -587,13 +596,13 @@
     {
       position: relative;
       display: inline-block;
-      background: #CF77AA;
+      background: $indie-pink;
       color: #fff;
       text-align: center;
       border-radius: 0.5em;
       text-decoration: none;
       padding: 0.65em 3em 0.65em 3em;
-      border: 1px solid #CF77AA;
+      border: 1px solid $indie-pink;
       cursor: pointer;
       outline: 0;
       font-weight: 300;
@@ -609,9 +618,9 @@
       input[type="reset"]:hover,
       .button:hover
       {
-        color: #CF77AA;
+        color: $indie-pink;
         background: #fff;
-        border-color: #CF77AA;
+        border-color: $indie-pink;
       }
       
       input[type="button"].alt,
@@ -619,7 +628,7 @@
       input[type="reset"].alt,
       .button.alt
       {
-        background: #2B252C;
+        background: $dark-grey;
       }
 
 
@@ -628,7 +637,7 @@
         input[type="reset"].alt:hover,
         .button.alt:hover
         {
-          background: #3B353C;
+          background: $dark-grey;
         }
 
   /* Post */
@@ -664,7 +673,7 @@
       font-weight: normal;
       line-height: 1;
       -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
+      -moz-osx-font-smoothing:greyscale;
     }
     
     .icon > .label {
@@ -675,7 +684,7 @@
     {
       position: relative;
       display: inline-block;
-      background: #2b252c;
+      background: $dark-grey;
       color: #fff;
       border-radius: 100%;
       width: 3em;
@@ -741,7 +750,7 @@
       .homepage #header .overlay
       {
         content: '';
-        background: #1C0920;
+        background: $dark-grey;
         display: block;
         position: absolute;
         left: 0;
@@ -945,7 +954,7 @@
 
       .dropotron li:hover
       {
-        color: #ef8376;
+        color: $indie-pink;
       }
 
       .dropotron li a,
@@ -1062,14 +1071,14 @@
     position: relative;
     overflow: hidden;
     padding: 6em 0 6em 0;
-    background: #2b252c;
+    background: $dark-grey;
     color: #fff;
   }
 
     #footer .icon.circled
     {
       background: #fff;
-      color: #2b252c;
+      color: $dark-grey;
     }
 
     #footer header
