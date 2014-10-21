@@ -1094,7 +1094,12 @@ $light-grey: #f4f4f4;
     background: $dark-grey;
     color: #fff;
   }
-
+  
+  #footer header > p
+  {
+    font-size: 16px;
+  }
+  
     #footer .icon.circled
     {
       background: #fff;
