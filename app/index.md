@@ -20,7 +20,7 @@ Stop giving your personal data by taking back the control of your digital life a
 
 And we do it for your freedom, not to become rich
 
-<center><img src="/images/logo-full-black.svg" alt="IndieHosters" style="height: 400px;"/></center>
+<center><img class="image featured" src="/images/logo-full-black.svg" alt="IndieHosters" style="height: 400px;"/></center>
 
 ### We plan to offer hosting for every free and open source software.
 
