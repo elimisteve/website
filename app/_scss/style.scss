@@ -1095,10 +1095,10 @@ $light-grey: #f4f4f4;
     color: #fff;
   }
   
-  input[type="button"],
-  input[type="submit"],
-  input[type="reset"],
-  .button
+  #footer input[type="button"],
+  #footer input[type="submit"],
+  #footer input[type="reset"],
+  #footer .button
   {
     margin: 0;
   }
