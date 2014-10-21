@@ -9,6 +9,23 @@ $indie-pink: #D078BA;
 $dark-grey: #333333;
 $light-grey: #f4f4f4;
 
+// Fonts declaration
+@font-face {
+  font-family: 'Verdana-Regular';
+  src: url('fonts/Verdana-Regular.eot');
+  src: local('☺'), url('fonts/Verdana-Regular.woff') format('woff'), url('fonts/Verdana-Regular.ttf') format('truetype'), url('fonts/Verdana-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('fonts/Montserrat-Regular.eot');
+  src: local('☺'), url('fonts/Montserrat-Regular.woff') format('woff'), url('fonts/Montserrat-Regular.ttf') format('truetype'), url('fonts/Montserrat-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 /*
@@ -44,14 +61,15 @@ $light-grey: #f4f4f4;
   body,input,textarea,select
   {
     font-size: 15pt;
+    font-family:'Verdana-Regular',Sans-Serif;
     line-height: 1.85em;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
   }
 
   h1,h2,h3,h4,h5,h6
   {
     font-weight: 400;
+    font-family:'Montserrat-Regular',Sans-Serif;
     color: $dark-grey;
     line-height: 1.25em;
   }
