@@ -680,6 +680,7 @@ $light-grey: #f4f4f4;
 
   .icon {
     text-decoration: none;
+    border: none;
   }
 
     .icon:before {
@@ -693,7 +694,11 @@ $light-grey: #f4f4f4;
       -webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing:greyscale;
     }
-    
+
+    .icon.fa {
+      font-size: 36px;
+    }
+
     .icon > .label {
       display: none;
     }
