@@ -1006,7 +1006,7 @@ $light-grey: #f4f4f4;
 /* Banner                                                                        */
 /*********************************************************************************/
 
-  #banner
+  #pitch
   {
     background: #fff;
     text-align: center;
@@ -1014,9 +1014,15 @@ $light-grey: #f4f4f4;
     margin-bottom: 0;
   }
   
-    #banner header > p
+    #pitch p
     {
       margin-bottom: 0;
+      text-align: center;
+    }
+    
+    #pitch h2
+    {
+      padding: 64px 0 0 0;
     }
 
 /*********************************************************************************/
