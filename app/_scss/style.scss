@@ -618,7 +618,7 @@ $light-grey: #f4f4f4;
       text-align: center;
       border-radius: 0.5em;
       text-decoration: none;
-      padding: 0.65em 3em 0.65em 3em;
+      padding: 16px 3em 16px 3em;
       margin: 32px 0;
       border: 1px solid $indie-pink;
       cursor: pointer;
@@ -1093,6 +1093,14 @@ $light-grey: #f4f4f4;
     padding: 6em 0 6em 0;
     background: $dark-grey;
     color: #fff;
+  }
+  
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  .button
+  {
+    margin: 0;
   }
   
   #footer header > p
