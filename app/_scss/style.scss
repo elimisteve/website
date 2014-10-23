@@ -6,6 +6,7 @@ $indie-blue: #0DB4C7;
 $indie-green: #00B6A0;
 $indie-pink: #D078BA;
 $dark-grey: #333333;
+$grey: #666;
 $light-grey: #f4f4f4;
 
 // Fonts declaration
@@ -85,17 +86,16 @@ $light-grey: #f4f4f4;
   h2
   {
     font-size: 2.85em;
-    margin-bottom: 0.35em;
   }
   
   h3
   {
-    font-size: 1.25em;
+    font-size: 1.85em;
   }
   
   h4
   {
-    font-size: 1em;
+    font-size: 1.25em;
     margin: 0 0 0.25em 0;
   }
   
@@ -228,13 +228,14 @@ $light-grey: #f4f4f4;
       .row > section,
       .row > article
       {
-        margin: 1em 0 2em;
+        margin: 0 0 2.85em;
       }
 
       section.special > header,
       section.special > footer,
       article.special > header,
-      article.special > footer
+      article.special > footer,
+      article > p
       {
         text-align: center;
       }
@@ -246,11 +247,19 @@ $light-grey: #f4f4f4;
 
       header > p
       {
+        width: 60%;
+        margin: 0 auto 2.85em;
+        color: $grey;
         display: block;
         font-size: 1em;
         line-height: 1.5em;
         text-align: inherit;
-        margin-bottom: 1em;
+        margin-bottom: 2.85em;
+      }
+      
+      header > h2
+      {
+        margin: 0;
       }
       
     footer
@@ -1012,7 +1021,7 @@ $light-grey: #f4f4f4;
       }
 
 /*********************************************************************************/
-/* pitch plan                                                                        */
+/* pitch                                                                         */
 /*********************************************************************************/
 
   #pitch
@@ -1024,8 +1033,20 @@ $light-grey: #f4f4f4;
   
     #pitch p
     {
+      color: $grey;
       text-align: center;
+      margin-bottom: 2.85em;
     }
+
+/*********************************************************************************/
+/* plan                                                                         */
+/*********************************************************************************/
+
+  #plan
+  {
+    width: 60%;
+    margin: 0 auto;
+  }
 
 /*********************************************************************************/
 /* Content                                                                       */
@@ -1092,7 +1113,7 @@ $light-grey: #f4f4f4;
   {
     position: relative;
     overflow: hidden;
-    padding: 6em 0 6em 0;
+    padding: 4em 0;
     background: $dark-grey;
     color: #fff;
   }
@@ -1168,7 +1189,7 @@ $light-grey: #f4f4f4;
   {
     position: relative;
     overflow: hidden;
-    padding: 2em 0 2em 0;
+    padding: 0 0 2em 0;
     margin-bottom: 0;
   }
 

@@ -19,6 +19,6 @@ And we do it for your freedom, not to become rich.
 
 <img class="image featured" src="/images/logo-full-black.svg" alt="IndieHosters"/>
 
-### We plan to offer hosting for all free and open source software.
+#### We plan to offer hosting for all free and open source software.
 
-### If you are interested, please, stay in touch, we are launching soon!
+#### If you are interested, please, stay in touch, we are launching soon!
