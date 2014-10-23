@@ -17,8 +17,6 @@ Homer won a municipal election with [that slogan](https://en.wikipedia.org/wiki/
 
 And we do it for your freedom, not to become rich.
 
-The idea is to create a CyberFoundation to protect the ideology of what is IndieHosting, and then everybody is libre to become an IndieHoster.
-
 <img class="image featured" src="/images/logo-full-black.svg" alt="IndieHosters"/>
 
 ### We plan to offer hosting for all free and open source software.
