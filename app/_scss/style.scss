@@ -417,7 +417,7 @@ $light-grey: #f4f4f4;
 
       ul.menu
       {
-        height: 1em;
+        height: 31px;
         line-height: 1em;
       }
       
@@ -427,6 +427,7 @@ $light-grey: #f4f4f4;
           border-left: solid 1px rgba(128,128,128,0.2);
           padding-left: 1.25em;
           margin-left: 1.25em;
+          vertical-align: middle;
         }
         
         ul.menu li:first-child
