@@ -235,9 +235,14 @@ $light-grey: #f4f4f4;
       section.special > footer,
       article.special > header,
       article.special > footer,
-      article > p
+      article.special > p
       {
         text-align: center;
+      }
+      
+      #main.special > p
+      {
+        text-align: left;
       }
 
     header
