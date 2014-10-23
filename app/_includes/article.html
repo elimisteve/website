@@ -4,5 +4,5 @@
     {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
   </p>
 </header>
-<a href="#" class="image featured"><img src="/images/pic06.jpg" alt="" /></a>
+<a href="#" class="image featured"><img src="/images/posts/{{ page.image }}" alt="" /></a>
 {{ content }}
