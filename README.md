@@ -16,12 +16,14 @@ indiehosters.net
   * install browser plugin [LiveReload](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-)
 
 ## Alternative: get started with Docker
+* Edit `Gruntfile.js` and change 'localhost' to '0.0.0.0'
+
 ```bash
 docker build -t grunt .
 # install project dependencies locally
 docker run --rm --entrypoint="/usr/local/bin/npm" -v $(pwd):/website grunt install
 # run the project
-docker run -v $(pwd):/website grunt
+docker run -d -p 127.0.0.1:9000:9000 -v $(pwd):/website grunt
 # build the project
 docker run -v $(pwd):/website grunt build
 ```
