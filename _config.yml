@@ -30,6 +30,10 @@ markdown: kramdown
 #     coderay_bold_every: 10
 #     coderay_css: style
 
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
 highlighter: pygments
 collections:
   - carousel_items
