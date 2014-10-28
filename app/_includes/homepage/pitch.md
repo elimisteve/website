@@ -1,5 +1,5 @@
 ## Hosting your own server is a hassle!
-So many of us end up using Gmail and Facebook instead of a free software personal server stack.
+Many of us end up using Gmail and Facebook instead of a free software personal server stack.
 
 ## "Can't Someone Else Do It?"
 Homer won a municipal election with [that slogan](https://en.wikipedia.org/wiki/Trash_of_the_Titans), why not us!
