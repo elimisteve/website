@@ -30,7 +30,6 @@
       'global': { range: '*', href: '/css/style.css', containers: 1400, grid: { gutters: 48 } },
       'wide':   { range: '-1680', href: '/css/style-wide.css', containers: 1200 },
       'normal': { range: '-1280', href: '/css/style-normal.css', containers: '100%', grid: { gutters: 36 } },
-      'narrow': { range: '-960', href: '/css/style-narrow.css', grid: { gutters: 32 } },
       'narrower': { range: '-840', href: '/css/style-narrower.css', grid: { collapse: true } },
       'mobile': { range: '-736', href: '/css/style-mobile.css', grid: { gutters: 16 }, viewport: { scalable: false } }
     },
