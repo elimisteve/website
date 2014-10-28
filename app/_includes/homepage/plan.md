@@ -9,6 +9,12 @@ We don't ask if they want a TLS certificate to have https and increase their sec
 
 We offer the same functionalities, for the same price, but for all free software, not just wordpress!
 
+### How do we compare to Bitnami?
+
+Like TurnKeyLinux, Bitnami have packaged around 100 free software products. We will reuse that work as much as we can.
+Also, our product will add a domain name, TLS certificate, and email forwarding, so it's readily usable as a personal server.
+And unlike Bitnami, we are a non-profit franchise.
+
 ### How do we compare to Facebook/Google?
 
 We care about your personal data, and will never sell them to third party services. That's why you are willing to pay us for this confidence! And if you don't like your hoster, just change it, like your personal trainer!
