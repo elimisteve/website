@@ -304,6 +304,16 @@ module.exports = function (grunt) {
         'sass:dist',
         'copy:dist'
       ]
+    },
+    buildcontrol: {
+      dist: {
+        options: {
+          remote: 'git@github.com:indiehosters/website.git',
+          branch: 'master',
+          commit: true,
+          push: true
+        }
+      }
     }
   });
 
@@ -361,5 +371,12 @@ module.exports = function (grunt) {
     'check',
     'test',
     'build'
+  ]);
+  
+  grunt.registerTask('deploy', [
+    'check',
+    'test',
+    'build',
+    'buildcontrol'
   ]);
 };
