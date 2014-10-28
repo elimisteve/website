@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IndieHosters</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://indiehosters.net/</link>
+    <atom:link href="http://indiehosters.net/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 28 Oct 2014 14:57:36 +0000</pubDate>
+    <lastBuildDate>Tue, 28 Oct 2014 14:57:36 +0000</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Hello world!</title>
+        <description>
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;RUN &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;hello world&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;We&amp;#8217;re glad to present you our new project! And we hope you&amp;#8217;re as glad as us ;)&lt;/p&gt;
+
+&lt;p&gt;Please, if you are interested by this excited adventure subscribe to our news letter and spread the word to your friends!&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s get excited!&lt;/p&gt;
+
+&lt;p&gt;See you soon for nice updates :)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Oct 2014 08:00:00 +0000</pubDate>
+        <link>http://indiehosters.net/communication/2014/10/27/hello-world.html</link>
+        <guid isPermaLink="true">http://indiehosters.net/communication/2014/10/27/hello-world.html</guid>
+        
+        
+        <category>communication</category>
+        
+      </item>
+    
+  </channel>
+</rss>
