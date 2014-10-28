@@ -191,6 +191,15 @@ module.exports = function (grunt) {
         options: {
           check: 'gzip'
         }
+      },
+      manual: {
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.app %>/css/',
+          src: ['*.css', '!*.min.css'],
+          dest: 'dist/css/',
+          ext: '.css'
+        }]
       }
     },
     imagemin: {
@@ -226,8 +235,10 @@ module.exports = function (grunt) {
             // Jekyll processes and moves HTML and text files.
             // Usemin moves CSS and javascript inside of Usemin blocks.
             // Copy moves asset files and directories.
-            'img/**/*',
+            'images/**/*',
             'fonts/**/*',
+            'css/**',
+            'js/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}'
             // Explicitly add any files your site needs for distribution here.
@@ -236,6 +247,16 @@ module.exports = function (grunt) {
             //'apple-touch*.png'
           ],
           dest: '<%= yeoman.dist %>'
+        }]
+      },
+      css: {
+        files:[{
+          src: '.tmp/css/style.css',
+          dest: '<%= yeoman.dist %>/css/style.css'
+        },
+        {
+          src: '<%= yeoman.app %>/css/font-awesome.min.css',
+          dest: '<%= yeoman.dist %>/css/font-awesome.min.css'
         }]
       }
     },
@@ -247,9 +268,7 @@ module.exports = function (grunt) {
         files: [{
           src: [
             '<%= yeoman.dist %>/js/**/*.js',
-            '<%= yeoman.dist %>/css/**/*.css',
             '<%= yeoman.dist %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
-            '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
       }
@@ -327,13 +346,13 @@ module.exports = function (grunt) {
     // Jekyll cleans files from the target directory, so must run first
     'jekyll:dist',
     'concurrent:dist',
+    'cssmin:manual',
     'useminPrepare',
-    'concat',
-    'cssmin',
-    'uglify',
-    'imagemin',
-    'svgmin',
+    'concat:generated',
+    'cssmin:generated',
+    'uglify:generated',
     'filerev',
+    'copy:css',
     'usemin',
     'htmlmin'
     ]);
