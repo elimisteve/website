@@ -27,7 +27,12 @@ docker run -d -p 127.0.0.1:9000:9000 -v $(pwd):/website grunt
 # build the project
 docker run -v $(pwd):/website grunt build
 # update the master branch
+sudo rm -rf dist/
+git clone git@github.com:indiehosters/website dist
 docker run -v $(pwd):/website grunt deploy
+cd dist
+git status
+git push
 ```
 
 TODO: integration with livereload with an env variable
