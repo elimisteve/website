@@ -32,7 +32,7 @@ git clone git@github.com:indiehosters/website dist
 cd dist
 git checkout master
 cd ..
-docker run -v $(pwd):/website grunt deploy
+sudo docker run -v $(pwd):/website grunt deploy
 cd dist
 git status
 git push
