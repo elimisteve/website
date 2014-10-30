@@ -26,6 +26,8 @@ docker run --rm --entrypoint="/usr/local/bin/npm" -v $(pwd):/website grunt insta
 docker run -d -p 127.0.0.1:9000:9000 -v $(pwd):/website grunt
 # build the project
 docker run -v $(pwd):/website grunt build
+# update the master branch
+docker run -v $(pwd):/website grunt deploy
 ```
 
 TODO: integration with livereload with an env variable
