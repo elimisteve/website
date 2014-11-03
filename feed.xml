@@ -1,36 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <title>IndieHosters</title>
-  <channel>
-    <title>IndieHosters</title>
-    <description>IndieHosters is hosting your data for your freedom not for profit!</description>
-    <link>https://indiehosters.net/</link>
-    <atom:link href="https://indiehosters.net/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 03 Nov 2014 16:08:18 +0000</pubDate>
-    <lastBuildDate>Mon, 03 Nov 2014 16:08:18 +0000</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Hello world!</title>
-        <description>
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;RUN &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;hello world&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-&lt;p&gt;We&amp;#8217;re glad to present you our new project! And we hope you&amp;#8217;re as glad as us ;)&lt;/p&gt;
+  <title><![CDATA[IndieHosters]]></title>
+  <link href="https://indiehosters.net/atom.xml" rel="self"/>
+  <link href="https://indiehosters.net/"/>
+  <updated>2014-11-03T16:13:13+00:00</updated>
+  <id>https://indiehosters.net/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[info@indiehosters.net]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-&lt;p&gt;Please, if you are interested by this excited adventure subscribe to our news letter and spread the word to your friends!&lt;/p&gt;
+  
+  <entry>
+    <title type="html"><![CDATA[Hello world!]]></title>
+    <link href="https://indiehosters.net/communication/2014/10/27/hello-world.html"/>
+    <updated>2014-10-27T08:00:00+00:00</updated>
+    <id>https://indiehosters.net/communication/2014/10/27/hello-world</id>
+    <content type="html"><![CDATA[
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">RUN <span class="nb">echo</span> <span class="s2">&quot;hello world&quot;</span></code></pre></div>
 
-&lt;p&gt;Let&amp;#8217;s get excited!&lt;/p&gt;
+<p>We&#8217;re glad to present you our new project! And we hope you&#8217;re as glad as us ;)</p>
 
-&lt;p&gt;See you soon for nice updates :)&lt;/p&gt;
-</description>
-        <pubDate>Mon, 27 Oct 2014 08:00:00 +0000</pubDate>
-        <link>https://indiehosters.net/communication/2014/10/27/hello-world.html</link>
-        <guid isPermaLink="true">https://indiehosters.net/communication/2014/10/27/hello-world.html</guid>
-        
-        
-        <category>communication</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+<p>Please, if you are interested by this excited adventure subscribe to our news letter and spread the word to your friends!</p>
+
+<p>Let&#8217;s get excited!</p>
+
+<p>See you soon for nice updates :)</p>
+]]></content>
+  </entry>
+  
+</feed>
