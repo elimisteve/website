@@ -1,8 +1,9 @@
 ---
 layout: no-sidebar
-title:  "Our choice of server architecture: Docker+systemd"
-date:   2014-11-03 08:00:00
-categories: communication
+title:  "Choice of server architecture"
+date:   2014-11-03 17:00:00
+categories: [release, docker, systemd]
+image: docker.jpg
 ---
 
 We finally started running the first two IndieHosters servers! This website is hosted on it, for instance. Version 0.1 of the server setup
@@ -16,7 +17,7 @@ Of course you get better and better of the years while you do it more often, but
 a matter of following the instructions and recipes you're given, applying a bit of common knowledge about how server software usually
 organizes its configuration, processes, and logs, and whenever something doesn't work, search the forums for a solution.
 
-## Why we chose a generic Linux setup
+## Why we chose a generic Linux
 
 We chose a Docker+systemd setup, for several reasons. First, we want to be able to offer any personal server appliation someone may want.
 This means we don't want to commit to a specific personal server management tool. There are several projects that are working on graphical
@@ -24,9 +25,14 @@ user interfaces for server administration. They are like "meta software": it's s
 it comes preinstalled on a physical device you buy), and after that it works like a graphical "app store", where you can install other
 software (sometimes called apps, plugins, etcetera) very easily (typically with one click on some "Install" icon).
 
-Examples of such generic meta-software projects are
-[FreedomBox](https://freedomboxfoundation.org/), [SandStorm](https://sandstorm.io), and [Y-U-No-Host](https://yunohost.org/),
-[ownCloud](https://owncloud.org/) (where apps need to be PHP), and [CozyCloud](https://cozy.io/) (where apps need to be NodeJS).
+Examples of such generic meta-software projects are:
+
+* [FreedomBox](https://freedomboxfoundation.org/)
+* [SandStorm](https://sandstorm.io)
+* [Y-U-No-Host](https://yunohost.org/)
+* [ownCloud](https://owncloud.org/) (where apps need to be PHP)
+* [CozyCloud](https://cozy.io/) (where apps need to be NodeJS)
+
 We want to offer hosting for all these products, as well as for more specific server applications like postfix (email), Wordpress (blogging),
 etcetera. We also want to help small and young free software projects to gain traction by offering hosting for them before the big hosting
 companies do this.
@@ -35,14 +41,14 @@ companies do this.
 
 A lot of applications are available as LAMP applications, and by using Docker, we can easily offer all of these in a safe containerized environment. If one of these applications contains a cross-site scripting or SQL injection vulnerability, then this should stay entirely sandboxed,
 and not affect the other applications the user runs. Docker provides this separation, as it is based on Linux containers. Also, Dockerfiles
-provide an easy way to script the install steps of any Linux-based application in a reproducable way. For instance, this website has a
+provide an easy way to script the install steps of any Linux-based application in a reproducible way. For instance, this website has a
 [Dockerfile](https://github.com/indiehosters/website/blob/source/Dockerfile) which specifies exactly which version of grunt and jekyll you need
 to build it from the markdown source, and because the build happens in a Docker container, someone building it on an Ubuntu laptop gets exactly the same output as someone else building it on a Macbook.
 
-By using Dockerfiles to describe exactly, and reproducably, which application and configuration gets installed on a server, we will be able to easily offer hosting for hundreds of personal server setups. Yet we are being very careful not to add a layer of software ourselves. We only
+By using Dockerfiles to describe exactly, and reproducibly, which application and configuration gets installed on a server, we will be able to easily offer hosting for hundreds of personal server setups. Yet we are being very careful not to add a layer of software ourselves. We only
 translate the build instructions of the upstream project to a Dockerfile, configure which port should be opened, and Docker does the rest.
 
-Apart from containerization, and reproducable build instructions, another great feature are Docker volumes. As containers run, they have the
+Apart from containerization, and reproducible build instructions, another great feature are Docker volumes. As containers run, they have the
 possibility to build up state: files like logs and user data change on the container's internal filesystem, relative to their virgin state. When you reset (i.e., stop, remove, and start) the container, this state is reset to the initial virgin state.
 
 By mounting volumes from the host system into a Docker container for exactly the data you want to persist, this can be avoided. That we, we can
