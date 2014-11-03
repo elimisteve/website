@@ -86,6 +86,7 @@ $light-grey: #f4f4f4;
   h2
   {
     font-size: 2.85em;
+    margin-bottom: 0.35em
   }
   
   h3
@@ -152,6 +153,10 @@ $light-grey: #f4f4f4;
   p, ul, ol, dl, table
   {
     margin-bottom: 1em;
+  }
+  
+  ul {
+    list-style: disc inside none;
   }
 
   p
@@ -1043,6 +1048,11 @@ $light-grey: #f4f4f4;
       text-align: center;
       margin-bottom: 2.85em;
     }
+    
+    #pitch h2
+    {
+      margin-bottom: 0;
+    }
 
 /*********************************************************************************/
 /* plan article                                                                  */
@@ -1186,6 +1196,10 @@ $light-grey: #f4f4f4;
         {
           color: rgba(212,212,212,0.85);
         }
+  
+  #footer ul {
+    list-style-type: none;
+  }
 
 /*********************************************************************************/
 /* Carousel                                                                      */
