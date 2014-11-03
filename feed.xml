@@ -1,13 +1,10 @@
----
-layout: nil
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[IndieHosters]]></title>
   <link href="https://indiehosters.net/atom.xml" rel="self"/>
   <link href="https://indiehosters.net/"/>
-  <updated>2014-11-03T16:13:13+00:00</updated>
+  <updated>2014-11-03T16:15:47+00:00</updated>
   <id>https://indiehosters.net/</id>
   <author>
     <name><![CDATA[]]></name>
