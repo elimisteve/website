@@ -4,6 +4,7 @@ title:  "Hello world!"
 date:   2014-10-27 08:00:00
 categories: communication
 image: hello.png
+permalink: communication/2014/10/27/hello-world.html
 ---
 {% highlight bash %}
 RUN echo "hello world"
