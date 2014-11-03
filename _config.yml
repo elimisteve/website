@@ -9,6 +9,7 @@ facebook_username: indiehosters
 fb_admins: 821708187873692
 og_image: logo-full.png
 irc: indiehosters
+gratipay_username: indiehosters
 
 # Grunt handles images and assets.
 exclude: ['img', 'css', 'js', 'fonts',
