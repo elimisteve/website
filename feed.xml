@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IndieHosters</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://indiehosters.net/</link>
-    <atom:link href="http://indiehosters.net/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 31 Oct 2014 16:43:18 +0000</pubDate>
-    <lastBuildDate>Fri, 31 Oct 2014 16:43:18 +0000</lastBuildDate>
+    <description>IndieHosters is hosting your data for your freedom not for profit!</description>
+    <link>https://indiehosters.net/</link>
+    <atom:link href="https://indiehosters.net/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 03 Nov 2014 14:18:19 +0000</pubDate>
+    <lastBuildDate>Mon, 03 Nov 2014 14:18:19 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -24,8 +23,8 @@
 &lt;p&gt;See you soon for nice updates :)&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 Oct 2014 08:00:00 +0000</pubDate>
-        <link>http://indiehosters.net/communication/2014/10/27/hello-world.html</link>
-        <guid isPermaLink="true">http://indiehosters.net/communication/2014/10/27/hello-world.html</guid>
+        <link>https://indiehosters.net/communication/2014/10/27/hello-world.html</link>
+        <guid isPermaLink="true">https://indiehosters.net/communication/2014/10/27/hello-world.html</guid>
         
         
         <category>communication</category>
