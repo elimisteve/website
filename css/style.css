@@ -56,7 +56,8 @@ h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
   font-weight: 600; }
 
 h2 {
-  font-size: 2.85em; }
+  font-size: 2.85em;
+  margin-bottom: 0.35em; }
 
 h3 {
   font-size: 1.85em; }
@@ -103,6 +104,9 @@ blockquote {
 
 p, ul, ol, dl, table {
   margin-bottom: 1em; }
+
+ul {
+  list-style: disc inside none; }
 
 p {
   text-align: left; }
@@ -731,6 +735,9 @@ header .icon.circled {
   text-align: center;
   margin-bottom: 2.85em; }
 
+#pitch h2 {
+  margin-bottom: 0; }
+
 /*********************************************************************************/
 /* plan article                                                                  */
 /*********************************************************************************/
@@ -822,6 +829,9 @@ header .icon.circled {
 
 #footer .copyright a:hover {
   color: rgba(212, 212, 212, 0.85); }
+
+#footer ul {
+  list-style-type: none; }
 
 /*********************************************************************************/
 /* Carousel                                                                      */
