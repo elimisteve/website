@@ -2,7 +2,7 @@ title: IndieHosters
 email: info@indiehosters.net
 description: IndieHosters is hosting your data for your freedom not for profit!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://indiehosters.net" # the base hostname & protocol for your site
+url: "https://indiehosters.net" # the base hostname & protocol for your site
 twitter_username: indiehosters
 github_username: indiehosters
 facebook_username: indiehosters
