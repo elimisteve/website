@@ -4,7 +4,7 @@
   <title><![CDATA[IndieHosters]]></title>
   <link href="https://indiehosters.net/feed.xml" rel="self"/>
   <link href="https://indiehosters.net/"/>
-  <updated>2014-11-04T11:35:13+00:00</updated>
+  <updated>2014-11-04T17:46:37+00:00</updated>
   <id>https://indiehosters.net/</id>
   <author>
     <name><![CDATA[indiehosters]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CyberFoundation]]></title>
+    <link href="https://indiehosters.net/blog/CyberFoundation"/>
+    <updated>2014-11-04T12:00:00+00:00</updated>
+    <id>https://indiehosters.net/blog/CyberFoundation</id>
+    <content type="html"><![CDATA[<p>Our soft launch was quite a success, 80 Facebook likes, 30 followers on Twitter, 50 newsletter subscriptions. We are really happy with that!</p>
+
+<p>And with our first followers come our first concerns, and we believe this is important to answer doubts as soon as possible.</p>
+
+<h4 id="on-facebookhttpswwwfacebookcompermalinkphpstoryfbid826221630755681id821708187873692commentid826861500691694offset0totalcomments5-magnus-wrote">On <a href="https://www.facebook.com/permalink.php?story_fbid=826221630755681&amp;id=821708187873692&amp;comment_id=826861500691694&amp;offset=0&amp;total_comments=5">Facebook</a>, Magnus wrote:</h4>
+
+<p>“I love the idea, but how do you make sure, that you keep up with what you promise? After all, Couchsurfing promised to be non profit as well. Many years went by, people joined and when it became profitable they sold it all of a sudden.”</p>
+
+<p>We understand this concern. And we would be as concerned as you in your position. That’s why we decided that IndieHosters should be a non profit cyber foundation. The role of this cyber foundation is to hold the “brand”, and “copyright” of every contributions that is made to it, like code, translations, or even donations. Then every IndieHoster (note the singular) is given the right to use the “brand” under some conditions (to be determined). And so every hoster is authorized to make a living from his work, and even profit, as long as his clients are aware.</p>
+
+<p>For now, the cyber foundation doesn’t have any legal status in any nation state law system, but we are thinking about it. If you have some ideas, they are more than welcome! But basically, we have 2 documents that guide our work:</p>
+
+<ul>
+  <li><a href="https://github.com/indiehosters/documents/blob/master/cyberfoundation.md">CyberFoundation Status</a></li>
+  <li><a href="http://degooglisons-internet.org/nav/html/charte.html">Charte from Framasoft</a></li>
+</ul>
+
+<p>We still have to translate this charte, and “officially” sign it.</p>
+
+<p>As you can see, nothing is written in stone yet (French expression, sorry :) ), but we prepare the path. We also want to make sure, that you, the final user can contribute to it, and give your feedback before taking any decisions that could make a darker future..</p>
+
+<p>But what is sure for now is that all code we write is AGPLv3 and every document is CC0, Public Domain.</p>
+
+<p>And actually, we have a little doubt about the logo… Should it be copyright IndieHosters to make sure nobody can make bullshit with it, or should it be CC0 also?</p>
+
+<p>So as you can see, we’ll try to be as transparent as possible. But if you have any questions, doubt, ideas, please, feel free to submit your changes on our <a href="https://github.com/indiehosters/">github account</a> or even, come to discuss things with us in our <a href="irc://chat.freenode.net/indiehosters">IRC channel</a>.</p>
+
+<p>Image credit: http://choosealicense.com/</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Choice of server architecture]]></title>
