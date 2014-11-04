@@ -3,7 +3,7 @@ layout: no-sidebar
 title:  "CyberFoundation"
 date:   2014-11-04 12:00:00
 categories: [communication, cyberfoundation]
-image: license.png
+image: posts/license.png
 ---
 
 Our soft launch was quite a success, 80 Facebook likes, 30 followers on Twitter, 50 newsletter subscriptions. We are really happy with that!

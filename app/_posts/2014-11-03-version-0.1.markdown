@@ -3,7 +3,7 @@ layout: no-sidebar
 title:  "Choice of server architecture"
 date:   2014-11-03 17:00:00
 categories: [release, docker, systemd]
-image: docker.jpg
+image: posts/docker.jpg
 ---
 
 We finally started running the first two IndieHosters servers! This website is hosted on them, for instance. Version 0.1 of the server setup
