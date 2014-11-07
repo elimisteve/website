@@ -1,0 +1,19 @@
+---
+layout: no-sidebar
+title:  "v0.2.0"
+date:   2014-11-09 17:00:00
+categories: [communication, release]
+image: posts/v02.png
+---
+
+## Version 0.2.0
+
+For our 2nd beta version, we decided to work on the most popular blogging platform, wordpress. So from now on, we offer hosting for static sites, static sites with git, and wordpress. This change is quiet a big change, we worked all the week on it.
+
+## On the way for lamp
+
+And obviously, this work will be reused to host any kind of lamp stack, which is the most popular among FOSS projects.
+
+Please, for more information, read the official [release notes](https://github.com/indiehosters/indiehosters/releases/tag/0.2.0).
+
+If you have any comments, please feel free to share it with us!
