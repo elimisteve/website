@@ -4,7 +4,7 @@
   <title><![CDATA[IndieHosters]]></title>
   <link href="https://indiehosters.net/feed.xml" rel="self"/>
   <link href="https://indiehosters.net/"/>
-  <updated>2014-11-04T19:35:38+00:00</updated>
+  <updated>2014-11-10T10:54:39+00:00</updated>
   <id>https://indiehosters.net/</id>
   <author>
     <name><![CDATA[indiehosters]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[v0.2.0]]></title>
+    <link href="https://indiehosters.net/blog/v0.2.0"/>
+    <updated>2014-11-10T10:00:00+00:00</updated>
+    <id>https://indiehosters.net/blog/v0.2.0</id>
+    <content type="html"><![CDATA[<h2 id="version-020">Version 0.2.0</h2>
+
+<p>For our 2nd beta version, we decided to work on the most popular blogging platform, wordpress. So from now on, we offer hosting for static sites, static sites with git, and wordpress. This change is quite a big change, we worked all the week on it.</p>
+
+<h2 id="on-the-way-to-lamp">On the way to lamp</h2>
+
+<p>And obviously, this work will be reused to host any kind of LAMP-based application, which is the most popular among FOSS projects.</p>
+
+<p>Please, for more information, read the official <a href="https://github.com/indiehosters/indiehosters/releases/tag/0.2.0">release notes</a>.</p>
+
+<p>If you have any comments, please feel free to share it with us!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CyberFoundation]]></title>
