@@ -4,7 +4,7 @@
   <title><![CDATA[IndieHosters]]></title>
   <link href="https://indiehosters.net/feed.xml" rel="self"/>
   <link href="https://indiehosters.net/"/>
-  <updated>2014-11-10T10:54:39+00:00</updated>
+  <updated>2014-11-13T19:24:00+00:00</updated>
   <id>https://indiehosters.net/</id>
   <author>
     <name><![CDATA[indiehosters]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[First funding]]></title>
+    <link href="https://indiehosters.net/blog/first-funding"/>
+    <updated>2014-11-13T19:00:00+00:00</updated>
+    <id>https://indiehosters.net/blog/first-funding</id>
+    <content type="html"><![CDATA[<h2 id="nlnet-grant">NLnet grant</h2>
+
+<p>We are very happy to announce we secured our first funding! We receive a grant from the awesome <a href="https://nlnet.nl/">NLnet</a> foundation,
+which will help us to add two important products. First of all, we will add <a href="https://withknown.com/">Known</a> as an alternative to WordPress.</p>
+
+<p>Both Known and WordPress allow you to post on your own website, but whereas WordPress has a lot of plugins and the benefits of a huge global
+user base, Known is more specialized in providing the latest technology from the <a href="http://indiewebcamp.com/">IndieWeb</a> community out of the box. So these will be our first
+two products, for you to choose from.</p>
+
+<p>Apart from that, we will add <a href="https://piwik.org/">Piwik</a> statistics, so you can always see how many people are visiting your internet domain,
+on which days of the week you get the most visitors, and where they come from geographically. It’s a fun way to get some feedback after you
+publish a post, and get some insight into your popularity.</p>
+
+<h2 id="crowd-funding-on-thursday">Crowd-funding on Thursday!</h2>
+
+<p>And we have some more exciting news! Today, we recorded the video for the crowd-funding campaign. We will edit it to a short version, and put
+the crowd-funding campaign live on Thursday 20 November. So make sure you stay tuned and are ready to start being hosted with us!</p>
+
+<p><a href="#cta" class="scrolly button">Stay tuned!</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[v0.2.0]]></title>
