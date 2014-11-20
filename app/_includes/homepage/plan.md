@@ -31,4 +31,4 @@ Like cozy, it is a kind of meta software that is opinionated regarding the data 
 
 Imagine a world where owncloud is offering remote-storage. Then you could pick a picture from wordpress though a plugin directly to your remote storage. And this is the greater freedom we are looking for. Whichever your hosting provider is, your softwares communicate between them because the standard is open. This is being libre! We believe that we can start the post silo era with this idea.
 
-#### If you like our ideas, please subscribe to our newsletter!
+#### If you like our ideas, you can get the product on our crowdfunding!
