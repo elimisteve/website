@@ -240,6 +240,7 @@ module.exports = function (grunt) {
             'fonts/**/*',
             'css/**',
             'js/*',
+            'favicon.ico',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}'
             // Explicitly add any files your site needs for distribution here.
