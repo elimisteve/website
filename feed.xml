@@ -4,7 +4,7 @@
   <title><![CDATA[IndieHosters]]></title>
   <link href="https://indiehosters.net/feed.xml" rel="self"/>
   <link href="https://indiehosters.net/"/>
-  <updated>2014-11-18T18:50:33+00:00</updated>
+  <updated>2014-11-20T19:29:10+00:00</updated>
   <id>https://indiehosters.net/</id>
   <author>
     <name><![CDATA[indiehosters]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[We are CrowdFunding]]></title>
+    <link href="https://indiehosters.net/blog/crowdfunding-go"/>
+    <updated>2014-11-20T19:00:00+00:00</updated>
+    <id>https://indiehosters.net/blog/crowdfunding-go</id>
+    <content type="html"><![CDATA[<h2 id="crowdfunding">CrowdFunding</h2>
+
+<p>We just finished everything, and are ready to accept our first clients. We choose <a href="https://www.indiegogo.com/projects/indiehosters/x/9169969">Indiegogo</a> to pre-sale our service.</p>
+
+<h3 id="you-can-check-our-video-here">You can check our video here:</h3>
+<p><a href="http://igg.me/at/IndieHosters" target="_blank"><img src="/images/crowdfunding-video.png" /></a></p>
+
+<h2 id="users-to-start-in-january">100 users to start in January</h2>
+
+<p>We aim to get 100 clients, and start giving them IndieWeb applications from January. We believe it is a realistic goal. We already have 15 users in beta with wordpress. And we are polishing details for known. Then we’ll work on a small interface for the user choose his domain name. And we’ll be ready to send activation link by the end of January.</p>
+
+<h2 id="beers-a-month">2 beers a month</h2>
+
+<p>We did everything possible to offer you the cheapest we could. And we get to this price: 50€/domain/year. We really hope you’ll enjoy it and buy it for you and your relatives. And the big thing is whatever application we add in the future, you’ll have it, without paying more!</p>
+
+<h2 id="migration-oriented">Migration Oriented</h2>
+
+<p>We really believe that as a hosting network, we really make a difference by offering a “migration oriented” service. And hopefully hosting companies will adapt this philosophy little by little. We’re preparing a blog post about this subject to detail a bit more our plans on that.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First funding]]></title>
