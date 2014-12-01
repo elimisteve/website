@@ -58,7 +58,7 @@ Then for every application, there will be a migration button that will allow you
 
 ### IndieWeb use case
 
-Let's take the IndieWeb application that we are currently hosting for alpha users and [offering as a pre-sale](https://www.indiegogo.com/projects/indiehosters/x/9169969). Be part of the IndieWeb, is basically having your domain name with a blogging platform.
+Let's take the IndieWeb application that we are currently hosting for alpha users and [offering as a pre-sale](https://www.indiegogo.com/projects/indiehosters/x/9169969). Being part of the IndieWeb, is basically having your domain name with a blogging platform.
 
 The plan for registration is:
 
@@ -73,7 +73,7 @@ And on the start page, on the blog section, in "advanced area", you could access
 ### Summary
 
 To sum up, the start page will have the following functionalities:
-- links to admin panel of applications
+- links to admin panels of applications
 - choose the application that is on the main domain
 - migrate to another hoster
 - download a zip file of all your data
