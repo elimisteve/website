@@ -4,7 +4,7 @@
   <title><![CDATA[IndieHosters]]></title>
   <link href="https://indiehosters.net/feed.xml" rel="self"/>
   <link href="https://indiehosters.net/"/>
-  <updated>2014-11-21T12:24:39+00:00</updated>
+  <updated>2014-12-01T13:42:26+00:00</updated>
   <id>https://indiehosters.net/</id>
   <author>
     <name><![CDATA[indiehosters]]></name>
@@ -12,6 +12,98 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Start Page]]></title>
+    <link href="https://indiehosters.net/blog/StartPage"/>
+    <updated>2014-12-01T13:00:00+00:00</updated>
+    <id>https://indiehosters.net/blog/StartPage</id>
+    <content type="html"><![CDATA[<h2 id="just-configuring">Just configuring</h2>
+
+<p>Since we started, a lot of people are asking us how exactly IndieHosters is different from:</p>
+
+<ul>
+  <li>SandtStorm.io</li>
+  <li>classic CMS hosting</li>
+  <li>Cpanel</li>
+  <li>..</li>
+</ul>
+
+<p>First of all, we want to state out loud, we are not writing software. Pieces of code you can find on <a href="https://github.com/indiehosters/">github/indiehosters</a> are mostly configuration and documentation.</p>
+
+<p>IndieHosters is a network of Hosters that share an ideology and a migration format. We have now a “reference implementation” on how to run the migration format. But this implementation is just configuration of industry standard tools - namely CoreOS. (But tomorrow, we’ll also have ubuntu, and probably yours)</p>
+
+<p>(Later we’ll publish more on the <a href="http://indiewebcamp.com/one_click_migration">migration format</a>)</p>
+
+<h2 id="oh-wait">Oh wait!</h2>
+
+<h3 id="how-can-the-user-control-his-applications">How can the user “control” his applications?</h3>
+
+<p>This is indeed a good question. Some people made the choice to write software to solve this problem. We call it meta-software, software to manage software. There is already a bunch on the free software market:</p>
+
+<ul>
+  <li><a href="https://yunohost.org/">YunoHost</a></li>
+  <li><a href="https://sandstorm.io/">Sandstorm</a></li>
+  <li><a href="https://arkos.io/">arkos</a></li>
+  <li><a href="https://freedomboxfoundation.org/">Freedom Box</a></li>
+  <li><a href="http://cozy.io/">Cozy</a></li>
+  <li><a href="http://owncloud.org/">ownCloud</a></li>
+  <li><a href="http://www.webmin.com/">webmin</a></li>
+</ul>
+
+<p>And actually, we plan to offer hosting also for these in the future. One of the problems of these software products is they are aimed at technical people. And they all have some kind of technical restrictions:
+- one VM/hardware per user
+- one language for all the applications
+- strong opinion on how to run the software</p>
+
+<p>We plan to offer hosting at scale, on shared resources, and in an easy way.</p>
+
+<h2 id="introducing-the-startpage">Introducing the StartPage</h2>
+
+<h3 id="socket-activation">Socket activation</h3>
+
+<p>One of the ideas we have in mind is to use <a href="http://www.freedesktop.org/software/systemd/man/systemd.socket.html">Socket Activation</a>. For the non technical people, it means that for a user, all the applications we offer will be available from the first registration. And just during the first connection to the application, the software will be started.</p>
+
+<p>So at the end, the start page is basically a static html page with links to the different applications.</p>
+
+<p>We are still at the planning phase, and we have to benchmark this technique, but we are really enthusiastic about this idea.</p>
+
+<h3 id="migration-button">Migration button</h3>
+
+<p>Then for every application, there will be a migration button that will allow you to migrate from one Hoster to another. We believe that this is really our value added for the customer to be able to migrate. It’s getting closer and closer to the feeling of freedom you could have in the time your data were on your computer.</p>
+
+<h3 id="indieweb-use-case">IndieWeb use case</h3>
+
+<p>Let’s take the IndieWeb application that we are currently hosting for alpha users and <a href="https://www.indiegogo.com/projects/indiehosters/x/9169969">offering as a pre-sale</a>. Being part of the IndieWeb, is basically having your domain name with a blogging platform.</p>
+
+<p>The plan for registration is:</p>
+
+<ul>
+  <li>get an IndieHoster based on your language</li>
+  <li>connect with email/google/facebook/twitter</li>
+  <li>choose your domaine name (guessed on your connection)</li>
+  <li>access your start page</li>
+  <li>access your blogging application (we choose <a href="https://withknown.com/">known</a> as default)</li>
+</ul>
+
+<p>And on the start page, on the blog section, in “advanced area”, you could access other blogging platforms from wordpress.mydomain.com, ghost.mydomain.com, static.mydomain.com and so on. And you’ll also have the possibility to switch your main domain to another one with a click.</p>
+
+<h3 id="summary">Summary</h3>
+
+<p>To sum up, the start page will have the following functionalities:
+- links to admin panels of applications
+- choose the application that is on the main domain
+- migrate to another hoster
+- download a zip file of all your data
+- submit a support ticket</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>As you can see, it’s still ongoing discussion :) We’d love to hear your feedback on that! But we believe that there is room to develop a good and simple user experience, and not another store/meta-software.</p>
+
+<p>The idea is to start with this simple html page, and accept email tickets. And slowly, we’ll see the needs appearing. We can’t predict the future, but for IndieWeb hosting this is the experience we plan.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[We are CrowdFunding]]></title>
