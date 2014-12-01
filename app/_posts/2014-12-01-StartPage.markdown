@@ -73,6 +73,7 @@ And on the start page, on the blog section, in "advanced area", you could access
 ### Summary
 
 To sum up, the start page will have the following functionalities:
+
 - links to admin panels of applications
 - choose the application that is on the main domain
 - migrate to another hoster
