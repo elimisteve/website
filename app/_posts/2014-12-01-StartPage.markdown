@@ -1,7 +1,7 @@
 ---
 layout: no-sidebar
 title:  "The Start Page"
-date:   2014-11-27 19:00:00
+date:   2014-12-01 13:00:00
 categories: [communication, interface]
 image: posts/notwritingsoftware.png
 ---
