@@ -22,10 +22,10 @@
       <!-- Blog -->
         <section id="posts" class="4u">
           <header>
-            <h2 class="icon fa-file circled"><span class="label">Blog</span></h2>
+            <a href="/blog"><h2 class="icon fa-file circled"><span class="label">Blog</span></h2></a>
           </header>
           <ul class="divided">
-            {% for post in site.posts %}
+            {% for post in site.posts limit:3 %}
               <li>
                 <article class="post stub">
                   <header>
