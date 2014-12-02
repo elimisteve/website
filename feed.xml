@@ -4,7 +4,7 @@
   <title><![CDATA[IndieHosters]]></title>
   <link href="https://indiehosters.net/feed.xml" rel="self"/>
   <link href="https://indiehosters.net/"/>
-  <updated>2014-12-01T15:05:26+00:00</updated>
+  <updated>2014-12-02T10:28:37+00:00</updated>
   <id>https://indiehosters.net/</id>
   <author>
     <name><![CDATA[indiehosters]]></name>
@@ -37,7 +37,7 @@
 
 <h2 id="oh-wait">Oh wait!</h2>
 
-<h3 id="how-can-the-user-control-his-applications">How can the user “control” his applications?</h3>
+<h3 id="how-can-the-users-control-their-applications">How can the users “control” their applications?</h3>
 
 <p>This is indeed a good question. Some people made the choice to write software to solve this problem. We call it meta-software, software to manage software. There is already a bunch on the free software market:</p>
 
