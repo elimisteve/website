@@ -23,7 +23,7 @@ IndieHosters is a network of Hosters that share an ideology and a migration form
 
 ## Oh wait!
 
-### How can the user "control" his applications?
+### How can the users "control" their applications?
 
 This is indeed a good question. Some people made the choice to write software to solve this problem. We call it meta-software, software to manage software. There is already a bunch on the free software market:
 
