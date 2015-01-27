@@ -6,22 +6,7 @@
     </header>
   </section>
 </div>
-<section class="carousel">
-  <div class="reel">
-    {% assign sorted_applications = (site.applications | sort: "order") %}
-    {% for application in sorted_applications %}
-      <article>
-        <a href="{{ application.link }}" class="image featured offer" style="background-image: url({{ application.image }});">
-          {{ application.icon }}
-        </a>
-        <header>
-          <h3><a href="{{ application.link }}">{{ application.title }}</a></h3>
-        </header>
-        <p>{{ application.description }}</p>
-      </article>
-    {% endfor %}
-  </div>
-</section>
+
 {% include applications.html %}
 
 <div class="wrapper style1 after-carousel">
