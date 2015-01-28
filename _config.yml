@@ -42,5 +42,7 @@ collections:
   - products
   references:
     output: false
+  hosters:
+    output: true
 
 permalink: /blog/:title
