@@ -12,3 +12,4 @@ applications:
   - ghost
   - static
 ---
+
