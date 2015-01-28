@@ -681,18 +681,14 @@ $light-grey: #f4f4f4;
           background: $dark-grey;
         }
 
-  /* Post */
+  /* Blog */
 
-    .post
-    {
-    }
-    
-      .post.stub
+      .blog.stub
       {
         text-align: center;
       }
       
-        .post.stub header
+        .blog.stub header
         {
           margin: 0;
         }
