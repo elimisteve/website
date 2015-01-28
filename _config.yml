@@ -37,7 +37,8 @@ show_drafts: true
 
 highlighter: pygments
 collections:
-  - carousel_items
+  applications:
+    output: false
   - products
   references:
     output: false

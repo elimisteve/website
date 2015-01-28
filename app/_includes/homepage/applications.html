@@ -8,15 +8,16 @@
 </div>
 <section class="carousel">
   <div class="reel">
-    {% for item in site.carousel_items %}
+    {% assign sorted_applications = (site.applications | sort: "order") %}
+    {% for application in sorted_applications %}
       <article>
-        <a href="{{ item.link }}" class="image featured offer" style="background-image: url({{ item.image }});">
-          {{ item.icon }}
+        <a href="{{ application.link }}" class="image featured offer" style="background-image: url({{ application.image }});">
+          {{ application.icon }}
         </a>
         <header>
-          <h3><a href="{{ item.link }}">{{ item.title }}</a></h3>
+          <h3><a href="{{ application.link }}">{{ application.title }}</a></h3>
         </header>
-        <p>{{ item.description }}</p>
+        <p>{{ application.description }}</p>
       </article>
     {% endfor %}
   </div>
