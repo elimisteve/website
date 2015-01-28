@@ -39,10 +39,11 @@ highlighter: pygments
 collections:
   applications:
     output: false
-  - products
   references:
     output: false
   hosters:
+    output: true
+  products:
     output: true
 
 permalink: /blog/:title

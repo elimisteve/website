@@ -5,13 +5,23 @@
       <p>After signing up, you'll have access to the following functionalities:</p>
     </header>
     <div class="row">
-      {% for product in site.products %}
+      {% assign sorted_products = (site.products | sort: "order") %}
+      {% for product in sorted_products %}
       <article class="4u special">
-        <div class="image featured product" style="background-image: url({{ product.image }});">
-          <i class="fa {{ product.icon }}"></i>
-        </div>
+        {% if product.status == "done" %}<a href="{{ product.url }}">{% endif %}
+	        <div class="image featured product" style="background-image: url({{ product.image }});">
+            <i class="fa {{ product.icon }}"></i>
+          </div>
+        {% if product.status == "done" %}</a>{% endif %}
         <header>
-          <h3>{{ product.title }}</h3>
+          {% if product.status == "done" %}
+            <a href="{{ product.url }}">
+              <h3>{{ product.title }}</h3>
+            </a>
+          {% else %}
+              <h3>{{ product.title }}</h3>
+              <h4>{{ product.status }}</h4>
+	        {% endif %}
         </header>
         <p>
           {{ product.description }}
