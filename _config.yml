@@ -38,7 +38,7 @@ show_drafts: true
 highlighter: pygments
 collections:
   applications:
-    output: false
+    output: true
   references:
     output: false
   hosters:
