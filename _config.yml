@@ -39,5 +39,7 @@ highlighter: pygments
 collections:
   - carousel_items
   - products
+  references:
+    output: false
 
 permalink: /blog/:title
