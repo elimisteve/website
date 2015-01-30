@@ -1,0 +1,24 @@
+{% include head.html %}
+
+<body class="left-sidebar">
+  
+  {% include header.html %}
+  
+  <div class="wrapper style1">
+
+    <div class="container">
+      <article id="main" class="special">
+        <header>
+          <h2>{{ page.title }}</h2>
+          <p class="post-meta">
+          {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+          </p>
+        </header>
+        <div id="article">
+          {{ content }}
+        <div>
+      </article>
+    </div>
+  </div>
+  
+{% include footer.html %}

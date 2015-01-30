@@ -37,7 +37,14 @@ show_drafts: true
 
 highlighter: pygments
 collections:
-  - carousel_items
-  - products
+  applications:
+    output: true
+  references:
+    output: false
+  hosters:
+    output: true
+  products:
+    output: true
 
 permalink: /blog/:title
+

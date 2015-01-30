@@ -1,0 +1,24 @@
+<section class="carousel">
+  <div class="reel">
+    {% assign sorted_applications = (site.applications | sort: "order") %}
+    {% if page.layout == 'homepage' %}
+      {% assign limit = 4 %}
+    {% else %}
+      {% assign limit = 1000 %}
+    {% endif %}
+    {% for application in sorted_applications limit: limit %}
+      {% if page.layout == 'homepage' or page.layout == 'applications' or page.applications contains application.name %}
+      <article>
+        <a href="{{ application.url }}" class="image featured offer" style="background-image: url({{ application.image }});">
+          {{ application.icon }}
+        </a>
+        <header>
+          <h3><a href="{{ application.url` }}">{{ application.title }}</a></h3>
+        </header>
+        <p>{{ application.description }}</p>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
