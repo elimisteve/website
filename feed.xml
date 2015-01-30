@@ -4,7 +4,7 @@
   <title><![CDATA[IndieHosters]]></title>
   <link href="https://indiehosters.net/feed.xml" rel="self"/>
   <link href="https://indiehosters.net/"/>
-  <updated>2014-12-02T10:28:37+00:00</updated>
+  <updated>2015-01-30T17:55:53+00:00</updated>
   <id>https://indiehosters.net/</id>
   <author>
     <name><![CDATA[indiehosters]]></name>
@@ -322,11 +322,11 @@ See the <a href="https://github.com/indiehosters/indiehosters/tree/master/data/s
     <content type="html"><![CDATA[
 <div class="highlight"><pre><code class="language-bash" data-lang="bash">RUN <span class="nb">echo</span> <span class="s2">&quot;hello world&quot;</span></code></pre></div>
 
-<p>We&#8217;re glad to present you our new project! And we hope you&#8217;re as glad as us ;)</p>
+<p>We’re glad to present you our new project! And we hope you’re as glad as us ;)</p>
 
 <p>Please, if you are interested by this excited adventure subscribe to our news letter and spread the word to your friends!</p>
 
-<p>Let&#8217;s get excited!</p>
+<p>Let’s get excited!</p>
 
 <p>See you soon for nice updates :)</p>
 ]]></content>
