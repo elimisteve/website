@@ -13,6 +13,6 @@ applications:
   - ghost
   - static
   - owncloud
-paypal-button-id: 77L3CCS3MPRC8
+paypal-button-id: CGVHUTP4V8MEU
 ---
 
