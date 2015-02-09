@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/indiehosters
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://indiehosters.net
+  * I am indiehosters (https://keybase.io/indiehosters) on keybase.
+  * I have a public key with fingerprint C4C9 75AB CA42 CAE1 3B2B  96E1 28F1 3D21 466A 44FD
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "c4c975abca42cae13b2b96e128f13d21466a44fd",
+            "host": "keybase.io",
+            "key_id": "28f13d21466a44fd",
+            "kid": "0101208676e7f88eadd8f4b10c8ff6f000f6ff03ca66192f6cd12a252a1c692c81570a",
+            "uid": "07a2029c90866c6a42071b0083b12600",
+            "username": "indiehosters"
+        },
+        "service": {
+            "hostname": "indiehosters.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423505632,
+    "expire_in": 157680000,
+    "prev": "232db736b8e78b5126d2c126e0bff94d3d663efbf0e7b43180d0f621058ca7e1",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtkn9QVFUUx5clEkiCsVWSVgdeo6gDzL3vvb3v7TrYBII46GRjYP5c3n3vPvYJ
+vF12FxAYNFGZyfpjGxWSyrCimsgZyAilKINxzSFlAnJkdMF+wMCQlUSoIwzdZ/Wf
+/5w795zv93PvOXMCMeEmc9iqO+lJ2XvXz4X1TmDTS9fvjVUz2K1UMo5qpog8PFRN
+LyRej1fT/YyDkXnZLtgkLEs8K0sEcpjFdkQgK6qQU1jIIyTxvKowKYzL7TMcFIMl
+H0nT3DRHL05NodlH6IseFgAEkAUiEhARVFEkkqKIKo8hkEVVRSoAgEYVcLKEELSz
+KpIVyEqsjZWgjOysLEKbACSKK/sXJ0gsYO2ynSKRTN9igQAxACKHIYsAMIQ+4tWl
+EkLVmq5oxPg38fqYmhSGVso1mRhjMLKPUKXpxE8ZHq/b75bdxbTq8vs9Pofh9ld6
+DHkFwc7/QE5sePVC6iinZs2tMw5IlbJfM8iQZzkbsCGOTWHIPo/mJU7NUNgEJNLG
+gfEOKTemx7EKFjiERSKI2EY7UViZRgKwqtp5hVMQ4oiKVUAEzHNQBAodGwuBTZQl
+gUDGaK1UdzMOjn5TKqRInxZdqEv+Mi9haqJfNVsfM4WZTY9HmI2dMEVHxf2/KB/q
+caZPCrI6h79/Sp+b+GW6NLarES7xklsL0mPHatsr52ctd0ve2LK8vzq7oy4yfV1z
+wgxuvZQr7WmeGq/Pyj22MC6w7ezgbEbluf1lP3mesRZ8k/BjmvNKU17bku86/vzj
+4PBa18KxRcHVmQlVh3YGyod8FajrxV7GnBkVa83qzk8ciZCsX9hTBmpO3Zrpzvz5
+nd34A3t0/vsjYysdLm/EpSnmrZocdOW46+KJ8M5FZ1++F7MjM/X00uMTyuqKFaGT
+3/bgvJ0xCcHtX49Pz7dZa9Godnjko8Qzvpb2Cfj3tV/5w7awos131m+4PFpbVVXn
+3tPWl/xc8oquaWIdkj53w9a5cF93fKAro+nNrdOO5oYzf627ERWvWZK0sJzTnKVn
+PsjePhp6IBUKayOsHaGN0Y2NnoFIvyAuizF1TQa3PT1+v6Gd1PaWD/ZdbZuZC589
+tMmVKgcPNH46mLF3V8aXTzat2lycF+ntW7O43rmhLEsxB14fuDA6MJnUuf/mDuvW
+Y8tfeM158lnzzZL+j081b99kun+upXJpKW9Kjs+e+n3oia+cd4uHfzuamBfCK3N3
+FYQ+i0268cqCLS0nHK3NV+tRU3jVeVfHxXf7u3cHJjvze99+fk31e7OpecU4p2ds
+cZmp7toRZVnoQFTWxO0HLktk5L4fGg6Ckuuj5zfas+svz+b4g3MXio9Y/gE=
+=dbel
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/indiehosters
+
+==================================================================
+
