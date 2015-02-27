@@ -3,9 +3,12 @@ layout: no-sidebar
 title:  "Signup now open"
 date:   2015-02-28 19:00:00
 categories: [communication]
+image: posts/paynow.png
 ---
 
-# IndieHosters signup is now open!
+*Sorry, the paypal button is horrible, we'll change it in the future :)*
+
+## Signup is now open!
 
 Two months have passed since the successful completion of our IndieGoGo
 campaign, and everybody should have received their stickers and hosting
@@ -31,10 +34,9 @@ We worked hard to get on-the-fly activation of applications working,
 meaning each customer can have as many applications as they want
 'sleeping' on the server, and they only wake up when you use them. This
 morning, Michiel just switched the first of his servers from haproxy to
-Snickers (technical info: https://github.com/michielbdejong/snickers) to
+Snickers ([technical info](https://github.com/michielbdejong/snickers)) to
 prepare for this, and Pierre will soon also achieve the same effect,
-using "socket activated docker" (technical info:
-https://github.com/pierreozoux/indiepaas/issues/5).
+using "socket activated docker" ([technical info](https://github.com/pierreozoux/indiepaas/issues/5)).
 
 We believe migrations, and your freedom to move from one provider to
 another, are a fundamental part of managed personal server hosting, and
@@ -52,7 +54,7 @@ actually a world-first, and we as the IndieHosters network were also
 involved, contributing and helping the awesome Known team to get these
 migrations working.
 
-As another example, take Trovebox.com (previously known as OpenPhoto),
+As another example, take [Trovebox.com](https://trovebox.com/) (previously known as OpenPhoto),
 who are shutting down next month. In reaction, we started offering
 Trovebox hosting. Hopefully all migrations will be complete before their
 shutdown date of 15 March, and this can be a solution for the
@@ -63,5 +65,5 @@ down each month.
 
 So you see, all the more reasons to support IndieHosters!  If you
 didn't get a perk from the crowdfunding campaign, we have good news:
-general signup is now open for you. For 8 euros per month, get your own
-managed internet server, here: https://indiehosters.net/index.html#claim
+general signup is now open for you. For 8 euros per month, [get your own
+managed internet server](https://indiehosters.net/index.html#claim).
