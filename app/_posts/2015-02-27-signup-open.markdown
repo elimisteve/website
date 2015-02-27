@@ -3,10 +3,8 @@ layout: no-sidebar
 title:  "Signup now open"
 date:   2015-02-27 19:00:00
 categories: [communication]
-image: posts/paynow.png
+image: posts/open.png
 ---
-
-*Sorry, the paypal button is horrible, we'll change it in the future :)*
 
 ## Signup is now open!
 
