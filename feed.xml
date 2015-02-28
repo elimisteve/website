@@ -4,7 +4,7 @@
   <title><![CDATA[IndieHosters]]></title>
   <link href="https://indiehosters.net/feed.xml" rel="self"/>
   <link href="https://indiehosters.net/"/>
-  <updated>2015-02-27T20:27:05+00:00</updated>
+  <updated>2015-02-28T14:38:24+00:00</updated>
   <id>https://indiehosters.net/</id>
   <author>
     <name><![CDATA[indiehosters]]></name>
@@ -18,9 +18,7 @@
     <link href="https://indiehosters.net/blog/signup-open"/>
     <updated>2015-02-27T19:00:00+00:00</updated>
     <id>https://indiehosters.net/blog/signup-open</id>
-    <content type="html"><![CDATA[<p><em>Sorry, the paypal button is horrible, we’ll change it in the future :)</em></p>
-
-<h2 id="signup-is-now-open">Signup is now open!</h2>
+    <content type="html"><![CDATA[<h2 id="signup-is-now-open">Signup is now open!</h2>
 
 <p>Two months have passed since the successful completion of our IndieGoGo
 campaign, and everybody should have received their stickers and hosting
