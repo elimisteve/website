@@ -31,5 +31,9 @@ Like cozy, it is a kind of meta software that is opinionated regarding the data 
 
 Imagine a world where owncloud is offering remote-storage. Then you could pick a picture from wordpress though a plugin directly to your remote storage. And this is the greater freedom we are looking for. Whichever your hosting provider is, your softwares communicate between them because the standard is open. This is being libre! We believe that we can start the post silo era with this idea.
 
+### How big is my server?
+
+Big enough for use as a personal server. In case your blog gets a lot of traffic (like if you are a famous celebrity, someone people read about in magazines), or you store a lot of big video files on your server (rule of thumb: more than 10 full-length movies, so about 10 Gb), it could in rare cases happen that you cost your hoster more than what you pay. If this happens, you will be contacted by your hoster, and you will be offered the choice of either reducing your usage, migrating to a different hoster (you always have this option, at any time), paying for the overage at cost price (so whatever your hoster pays to their supplier), or working out some other custom solution which you're both happy with.
+
 #### If you like our ideas, you can your independance right now!
 
