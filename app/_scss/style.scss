@@ -69,7 +69,8 @@ $light-grey: #f4f4f4;
     font-weight: 400;
     font-family:'Montserrat-Regular',Sans-Serif;
     color: $dark-grey;
-    line-height: 1.85em;
+    line-height: 1.3em;
+    margin-bottom: 0.8em; 
   }
     h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
     {
@@ -86,7 +87,6 @@ $light-grey: #f4f4f4;
   h2
   {
     font-size: 2.85em;
-    margin-bottom: 0.35em
   }
   
   h3
@@ -97,7 +97,6 @@ $light-grey: #f4f4f4;
   h4
   {
     font-size: 1.25em;
-    margin: 0 0 0.25em 0;
   }
   
   strong, b
@@ -265,11 +264,6 @@ $light-grey: #f4f4f4;
         line-height: 1.5em;
         text-align: inherit;
         margin-bottom: 2.85em;
-      }
-      
-      header > h2
-      {
-        margin: 0;
       }
       
     footer
@@ -1045,11 +1039,6 @@ $light-grey: #f4f4f4;
       margin-bottom: 2.85em;
     }
     
-    #pitch h2
-    {
-      margin-bottom: 0;
-    }
-
 /*********************************************************************************/
 /* plan article                                                                  */
 /*********************************************************************************/
@@ -1252,3 +1241,10 @@ $light-grey: #f4f4f4;
       background-color: $light-grey;
       margin: 0 0 1em;
     }
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
