@@ -11,6 +11,8 @@ applications:
   - known
   - static
   - owncloud
+  - email
+  - piwik
 paypal-button-id: 77L3CCS3MPRC8
 ---
 
