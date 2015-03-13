@@ -1,16 +1,28 @@
 ---
 layout: page
 ---
-{% markdown application.md %}
+
+{{ content }}
+
+<p>
+  <a href="{{ page.link }}">Official website</a>
+</p>
 
 <h3>Where to buy</h3>
+
+<p>Here is a list of hosters from the IndieHosters network:</p>
+
+{% include hosters.html %}
+
+<p>
+  If you have any doubts, please:
+  </br></br><a class="scrolly button" href="#contact">Contact us!</a>
+</p>
+
 {% if page.hosting %}
 <p>
-  <a href="{{ page.hosting }}">Here is a list of other providers</a> - although we don't know of each of those whether they will support immigration and emigration.
+  You can also find hosting <a href="{{ page.hosting }}">here</a> - although they are not inside the IndieHosters network.
 </p>
 {% endif %}
 
-<p>Here is a list of hosters who do support seamless migration both ways:</p>
-
-{% include hosters.html %}
 
