@@ -32,7 +32,7 @@ We believe you DO [have](https://en.wikipedia.org/wiki/Nothing_to_hide_argument)
 
 ### If it's free
 
-[You are the product.](http://standblog.org/blog/post/2015/01/30/Flicage-brouillon-Partie-2-chapitre-15-le-piege-de-la-gratuite), that's why we believe you are willing to pay us to take care of your data.
+[You are the product](http://standblog.org/blog/post/2015/01/30/Flicage-brouillon-Partie-2-chapitre-15-le-piege-de-la-gratuite), that's why we believe you are willing to pay us to take care of your data.
 
 ### Site-deaths
 
