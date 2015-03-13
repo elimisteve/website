@@ -1,9 +1,26 @@
 ---
 layout: page
 ---
+{{ content }}
 
-<p>Here are the supported applications:</p>
-<p>If you feel lost, please do not hesitate to <a href="#contact">drop us a line</a>.</p>
+<h3>The following hosters offer this product:</h3>
+
+{% include hosters.html %}
+
+<h3>Here is a detailed list of supported applications:</h3>
 
 {% include applications.html  %}
+
+<p>If you feel lost, please do not hesitate to <a href="#contact">drop us a line</a>.</p>
+
+<div class="wrapper style1 after-carousel">
+  <section class="container special">
+    <header>
+      <h4>If you want to stay informed about evolution of list of applications, please, stay in touch.</h4>
+    </header>
+    <footer>
+      <a href="#cta" class="scrolly button">Stay in touch!</a>
+    </footer>
+  </section>
+</div>
 
