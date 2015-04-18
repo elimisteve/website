@@ -7,8 +7,8 @@ Big enough for use as a personal server. In case your blog gets a lot of traffic
 ### I already have data online, can you help migrate them?
 
 Yes, if it is free software, we'll be delighted to do it for you!
-If it is non-free software, you have to ge in touch with us as it depends on your application.
-Are friends build a [great website](http://freemydata.co/) to help you know if it is possible to get back your data from non-free software
+If it is non-free software, you have to get in touch with us as it depends on your application.
+And friends are building a [great website](http://freemydata.co/) to help you know if it is possible to get back your data from non-free software.
 
 ### How do we compare to Gandi/OVH/1and1?
 
@@ -67,10 +67,14 @@ We are working on a certification, but here is the rough idea for now:
 
 #### In the future, We would like to expand our offering in two ways:
 
- -  offer all applications to all customers, so they can try them out, but for that we need:
+1 offer all applications to all customers, so they can try them out, but for that we need:
+
   - just-in-time container creation
   - integrated certificates from LetsEncrypt
- -  review the software we offer, blog about it, and encourage people to try it out.
+
+2  review the software we offer, blog about it, and encourage people to try it out.
+
+#### Comitment
 
 We like this charte
 

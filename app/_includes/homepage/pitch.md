@@ -2,7 +2,7 @@
 
 Everything to deal with your emails, files, social life, website and many more!
 
-### We offer a personal managed server for you, your familly or your organisation.
+### We offer a personal managed server for you, your family or your organisation.
 
 We've figured out the hard parts of server management, so you don't have to worry about them.
 
@@ -48,7 +48,7 @@ You remember spending time on your myspace profile, and then, it was not trendy 
 
 ### Migration
 
-We believe that behing free to choose your personal server hoster is a greater freedom, and you shouldn't have to pay or worry about technical bits to migrate!
+We believe that being free to choose your personal server hoster is a greater freedom, and you shouldn't have to pay or worry about technical bits to migrate!
 
 ### Do you feel concerned? Then, you are ready to
 
