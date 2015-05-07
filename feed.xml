@@ -4,7 +4,7 @@
   <title><![CDATA[IndieHosters]]></title>
   <link href="https://indiehosters.net/feed.xml" rel="self"/>
   <link href="https://indiehosters.net/"/>
-  <updated>2015-04-18T11:57:06+01:00</updated>
+  <updated>2015-05-07T11:37:13+01:00</updated>
   <id>https://indiehosters.net/</id>
   <author>
     <name><![CDATA[indiehosters]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ouishare Awards]]></title>
+    <link href="https://indiehosters.net/blog/ouishare-awards"/>
+    <updated>2015-05-06T20:00:00+01:00</updated>
+    <id>https://indiehosters.net/blog/ouishare-awards</id>
+    <content type="html"><![CDATA[<h2 id="long-time-no-see">Long time no see</h2>
+
+<p>Yes, it was quiet a while since the last post. But we are not sleeping, do not worry. In the mean time, some more people join the movement. We are now hosting around 80 people.
+We are also working hard on how to offer a better infrastructure. For that reason, we’ll head to Paris in May - for the <a href="http://camp.ouisharelabs.net/2015/">OuiShare Labs</a>.</p>
+
+<h2 id="ouishare-awards">OuiShare Awards</h2>
+
+<p>We are delighted to tell you that we are nominated for the OuiShare Awards. Here is the video for the pitch:</p>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/QKB8jR-hULU" frameborder="0" allowfullscreen=""></iframe>
+
+<p>(It was quiclky made over a weekend, faster than the crowdfunding video ;) )</p>
+
+<p>You can support us by voting there: <a href="http://awards.ouishare.net/2015/vote/">http://awards.ouishare.net/2015/vote/</a>.</p>
+
+<p>Please, share, make memes, make fun of us, but spread the word!</p>
+
+<h2 id="bonus-track">Bonus track</h2>
+
+<p>In March we were invited to participate to <a href="http://www.p2pvalue.eu/floss4p2p-workshop-agenda">FLOSS4P2P</a>, a great conference, with excellent speaker. We had a great time, and we even pitch IndieHosters!</p>
+
+<p>You can find the video of the pitch bellow:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OtCWW0FTKw8" frameborder="0" allowfullscreen=""></iframe>
+
+<p>Cheers!</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Signup now open]]></title>
